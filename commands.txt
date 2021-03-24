@@ -73,4 +73,7 @@
 	--This command will view changes(briefly).
 40.git diff <source_branch> <target_branch>
 	--This command will preview changes before merging.
-41.
+41.git add . && git commit -m "commit message"
+	--This command will add all the files and commit those changes
+42.git -am "commit message"
+	--This command only adds the modified files and ignores the newly added files.
