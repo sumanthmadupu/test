@@ -16,3 +16,14 @@
 	--This command will be used to remove a file from the staging area.i.e, that file is added to staging area but still not committed yet.
 9.git restore <file_name>
 	--This command will discard the updates that had been made in the current directory.Which means the file in the working directory got updated but that file is not added or committed to the local repo.In that case,if we want to discard the changes in those files and want them as it were in the local repo.
+10.git rm --cache <file_name>
+	--This command will delete the file from the local repo.But it will present in the staging area.In order to remove it from the staging are too,we need to commit it.
+11.git clone <url_of_your_online/remote_repo>
+	--This command will create a local copy of a remote repository.
+12.git add -A
+	--This command will add all new and changed files to the staging area.
+13.git rm -r <file/folder_name>
+	--This command will remove a file or folder.
+git branch <branch_name>
+	--This command will create a branch with that "branch_name" in our local repo.
+
