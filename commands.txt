@@ -38,4 +38,18 @@
 	--This command will copy the contents from the local repo to the remote repo.
 20.git push <remote_repo_name> --delete <branch_name>
 	--This command will be used to delete a remote branch.
-21.
+21.Steps to remove a directory from remote repo
+	--First remove that directory in the local repo using 'git rm -r <file/folder_name>'
+	--Then commit those changes in the local repo using 'git commit'
+	--Then we have to push this local repo to the remote repo using 'git push -u <remote_repo_name> <local_repo_branch_name>'
+22.git checkout -b <branch_name>
+	--This command creates a new branch and switch to that branch
+23.git checkout -b <branch_name> <remote_repo/remote_branch_name>
+	--This command will clone a remote branch and switch to it.
+24.git branch -m <old_branch_name> <new_branch_name>
+	--This command is used to rename the branch in local_repo.
+25.git checkout <branch_name>
+	--This command is used to switch to an existing branch.
+26.git checkout -
+	--This command will be used to switch to the branch that is last checked out.
+27.
