@@ -1,0 +1,17 @@
+1.git init
+	--This is the first command to initialize an empty git repository in our local space.
+2.git add .
+	--This command will add the contents of the current directory to the staging area which is a temporary or intermediate space between our local repo and remote repo.
+3.git commit -m "some message"
+	--This command will commit the changes to our local repo.Means,It will move contents from the staging area to our local repo.
+4.git status
+	--This command will print the status of the current repository.
+5.git log
+	--This command will print the commit history of the current repo.(Who commited,When commited,The commit message etc)
+6.git config --global user.name "user_name(don't need these quotes)"
+	--This command will set the user_name.It is used in git log to display who committed it.
+7.git config --global user.email "user_email(don't need these quotes)"
+	--This command will set the user_email.It is used in git log to display who committed it.It will be useful if anyone wants to communicate with you.
+8.git restore --staged <file_name(don't need these angular brackets)>
+	--This command will be used to remove a file from the staging area.i.e, that file is added to staging area but still not committed yet.
+9.
