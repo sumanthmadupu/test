@@ -52,4 +52,14 @@
 	--This command is used to switch to an existing branch.
 26.git checkout -
 	--This command will be used to switch to the branch that is last checked out.
-27.
+27.git merge <branch_name>
+	--This command will merge a branch in to the active branch.
+28.git merge <source_branch_name> <target_branch_name>
+	--This command will merge a branch in to a target branch.
+29.git stash(or git stash push)
+30.git stash list
+31.git stash apply
+32.git stash apply stash@{3}(means apply 3rd stash)
+33.git stash apply --index
+34.git stash clear
+35.git fetch
