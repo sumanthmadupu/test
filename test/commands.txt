@@ -24,18 +24,6 @@
 	--This command will add all new and changed files to the staging area.
 13.git rm -r <file/folder_name>
 	--This command will remove a file or folder.
-14.git branch <branch_name>
+git branch <branch_name>
 	--This command will create a branch with that "branch_name" in our local repo.
-15.git pull <clone_url_from_github_repo>
-	--This command will copy the contents of the remote repo to our local repo.
-16.git branch -a
-	--This command will list all branches(local and repo)
-17.git branch -D <branch_name>
-	--This command will delete a branch from the local repo even it is not merged.
-18.git branch -d <branch_name>
-	--This command will delete a branch from the local repo only if it is merged.
-19.git push -u <remote_repo_name> <branch_name>
-	--This command will copy the contents from the local repo to the remote repo.
-20.git push <remote_repo_name> --delete <branch_name>
-	--This command will be used to delete a remote branch.
-21.
+
