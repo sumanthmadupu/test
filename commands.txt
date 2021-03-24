@@ -63,3 +63,14 @@
 33.git stash apply --index
 34.git stash clear
 35.git fetch
+36.git remote add master <github_empty_repo_url>
+	--This command will create an empty remote repo.
+37.git log
+	--This command will view the changes.
+38.git log --summary
+	--This command will view changes(detailed).
+39.git log --oneline
+	--This command will view changes(briefly).
+40.git diff <source_branch> <target_branch>
+	--This command will preview changes before merging.
+41.
